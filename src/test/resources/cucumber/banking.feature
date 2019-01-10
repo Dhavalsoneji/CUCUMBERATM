@@ -1,8 +1,4 @@
-Feature: Banking
-  As a user
-  I want to make an ATM Transaction
-    
-    @requirementKey=FT-RQ-108
+@requirementKey=FT-RQ-108
     Scenario: Withdraw less money
     Given I have $1200 on my account
     When I withdraw $2500
